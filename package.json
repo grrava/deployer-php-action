@@ -5,7 +5,7 @@
   "bin": {
     "deployer-php-action": "./bin/run"
   },
-  "bugs": "https://github.com/atymic/deployer-php-action/issues",
+  "bugs": "https://github.com/grrava/deployer-php-action/issues",
   "dependencies": {
     "@actions/core": "^1.10.1",
     "@vercel/ncc": "^0.38.1",
@@ -29,7 +29,7 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/atymic/deployer-php-action",
+  "homepage": "https://github.com/grrava/deployer-php-action",
   "keywords": [
     "oclif"
   ],
@@ -38,7 +38,7 @@
   "oclif": {
     "bin": "deployer-php-action"
   },
-  "repository": "atymic/deployer-php-action",
+  "repository": "grrava/deployer-php-action",
   "scripts": {
     "build": "tsc",
     "lint": "eslint **/*.ts --cache",
