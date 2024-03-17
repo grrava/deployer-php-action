@@ -1,4 +1,4 @@
-name: 'atymic/deployer-php-action'
+name: 'grrava/deployer-php-action'
 description: 'Set up Deployer PHP for use in github actions'
 inputs:
     ssh-private-key:
@@ -17,7 +17,7 @@ inputs:
         description: 'Skip install of deployer (if you are using a locally installed version)'
         required: false
 runs:
-    using: 'node12'
+    using: 'node20'
     main: 'dist/index.js'
 branding:
     icon: server
